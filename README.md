@@ -47,6 +47,9 @@ npm install growing-pool-cache
 ### [ai-native-design](https://github.com/nskit-io/ai-native-design)
 Design principles for structuring code that AI understands, modifies, and ships — with real-world benchmarks. The 500-800 line sweet spot, token efficiency analysis, and the Human DX vs AI DX framework.
 
+### [command-handler](https://github.com/nskit-io/command-handler)
+AI-friendly backend API dispatch pattern for Spring Boot. Kebab-to-camelCase routing, declarative auth (`@CommandHandler` = user guaranteed), complete business logic isolation per method.
+
 ### [csw](https://github.com/nskit-io/csw)
 CSW (Claude Subscription Worker) — Turn a $200/month Claude subscription into a scalable AI processing API. Concept architecture and reference implementation.
 
