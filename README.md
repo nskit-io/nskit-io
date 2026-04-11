@@ -4,7 +4,9 @@
 
 **AI-Native Web Framework & Tools**
 
-*Built by [Neoulsoft Inc.](https://neoulsoft.com) — Software Innovation Since 2019*
+*Built by [Neoulsoft Inc.](https://neoulsoft.com) (est. 2019, Seoul) — Open source initiative launched April 2026*
+
+*10+ production apps across KR/JP/ZH markets*
 
 [nskit.io](https://nskit.io) · [neoulsoft.com](https://neoulsoft.com)
 
@@ -28,30 +30,31 @@ NSKit is an AI-First web framework designed for the Claude and ChatGPT era. Inst
 | **Parallel AI Sessions** | Merge conflicts likely | Zero conflicts |
 | **Template Mixing** | Not possible | 100M+ combinations |
 
-### Production Stats
-
-- **10+** production applications
-- **150+** projects by Neoulsoft
-- **20-53x** more token efficient than React
-- **3** regions served (Korea, Japan, Chinese-speaking markets)
-
 ## Open Source Projects
 
-### [growing-pool-cache](https://github.com/nskit-io/growing-pool-cache) `npm`
-A self-growing cache pool for AI-generated content. Balances cost savings with response diversity. **97% API cost reduction** while maintaining diverse responses.
+### NVatar — AI Avatar Chat System
 
-```bash
-npm install growing-pool-cache
-```
+A living AI companion that runs entirely on local hardware — personality, emotion, memory, and 3D presence.
 
-### [ai-native-design](https://github.com/nskit-io/ai-native-design)
-Design principles for structuring code that AI understands, modifies, and ships — with real-world benchmarks. The 500-800 line sweet spot, token efficiency analysis, and the Human DX vs AI DX framework.
+**[Try Live Demo](https://nskit-io.github.io/nvatar-demo/)** · [Project Hub](https://github.com/nskit-io/nvatar)
 
-### [command-handler](https://github.com/nskit-io/command-handler)
-AI-friendly backend API dispatch pattern for Spring Boot. Kebab-to-camelCase routing, declarative auth (`@CommandHandler` = user guaranteed), complete business logic isolation per method.
+| Project | Description |
+|---------|-------------|
+| [**nvatar**](https://github.com/nskit-io/nvatar) | Project hub — architecture, stack, and documentation |
+| [**nvatar-demo**](https://github.com/nskit-io/nvatar-demo) | Live demo — 3D room, voice chat, web search |
+| [**avatar-chat**](https://github.com/nskit-io/avatar-chat) | Prompt engineering patterns for local LLM character AI |
+| [**chat-like-human-memory**](https://github.com/nskit-io/chat-like-human-memory) | 8D emotion + personality evolution + 3-tier memory |
+| [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) | Local/cloud hybrid routing — personality local, facts cloud |
+| [**vrm-studio**](https://github.com/nskit-io/vrm-studio) | 3D VRM avatar chat room with Three.js + WebSocket |
 
-### [csw](https://github.com/nskit-io/csw)
-CSW (Claude Subscription Worker) — Turn a $200/month Claude subscription into a scalable AI processing API. Concept architecture and reference implementation.
+### NSKit Framework & Tools
+
+| Project | Description |
+|---------|-------------|
+| [**growing-pool-cache**](https://github.com/nskit-io/growing-pool-cache) `npm` | Self-growing cache pool for AI content — 97% cost reduction |
+| [**ai-native-design**](https://github.com/nskit-io/ai-native-design) | Design principles for AI-optimized code structure |
+| [**command-handler**](https://github.com/nskit-io/command-handler) | AI-friendly backend API dispatch for Spring Boot |
+| [**csw**](https://github.com/nskit-io/csw) | Claude Subscription Worker — $200/mo subscription → production API |
 
 ---
 
