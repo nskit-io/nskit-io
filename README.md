@@ -42,6 +42,8 @@ A living AI companion that runs entirely on local hardware — personality, emot
 |---------|-------------|
 | [**nvatar**](https://github.com/nskit-io/nvatar) | Project hub — architecture, stack, and documentation |
 | [**nvatar-demo**](https://github.com/nskit-io/nvatar-demo) | Live demo — 3D room, voice chat, web search |
+| [**nvatar-sdk**](https://github.com/nskit-io/nvatar-sdk) | BehaviorPattern SDK — build custom avatar behaviors |
+| [**nvatar-code-assist**](https://github.com/nskit-io/nvatar-code-assist) | Code Assist — Claude Code integration via MCP channel |
 | [**avatar-chat**](https://github.com/nskit-io/avatar-chat) | Prompt engineering patterns for local LLM character AI |
 | [**chat-like-human-memory**](https://github.com/nskit-io/chat-like-human-memory) | 9D emotion + personality evolution + 3-tier memory |
 | [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) | Local/cloud hybrid routing — personality local, facts cloud |
