@@ -1,12 +1,18 @@
 <div align="center">
 
-# NSKit — LEGO for Web UI
+# NSKit
 
-**AI-Native Web Framework & Tools**
+### Bound by structure. Free to combine.
+
+**A production web-app platform — assembled by AI, maintained by humans.**
+
+*Every template you build today becomes tomorrow's ecosystem.*
+
+[🇰🇷 한국어](README.ko.md) · [🇯🇵 日本語](README.ja.md) · [🇨🇳 中文](README.zh.md)
 
 *Built by [Neoulsoft Inc.](https://neoulsoft.com) (est. 2019, Seoul) — Open source initiative launched April 2026*
 
-*10+ production apps across KR/JP/ZH markets*
+*10+ production apps running across KR / JP / ZH markets*
 
 [nskit.io](https://nskit.io) · [neoulsoft.com](https://neoulsoft.com)
 
@@ -14,25 +20,56 @@
 
 </div>
 
-## What is NSKit?
+## What NSKit is — and what it isn't
 
-NSKit is an AI-First web framework designed for the Claude and ChatGPT era. Instead of optimizing code for human reading habits, NSKit optimizes for how AI actually processes and modifies code.
+NSKit is a **production web-app platform** designed for the era when AI writes most of the code. The artifacts it produces are not mockups, pitch decks, or prototypes — they are **Self-Contained templates that run in production**, maintained by humans, composed by AI.
 
-**Core Philosophy: "Constrained to be Free"** — uniform structure enables infinite creativity, like LEGO blocks.
+This puts NSKit in a different layer from AI visual-artifact generators such as Claude Design, v0, Lovable, or Figma Make. Those tools are excellent at producing quick visuals; **NSKit is where those ideas become services that actually run and earn**. We treat them as complementary inputs, not competitors.
 
-### Why AI-Native?
+**Core philosophy — "Bound by structure, free to combine"**: uniform structure is the precondition for infinite composability, like LEGO blocks.
 
-| | Traditional (React/Vue) | NSKit (AI-Native) |
+## Why it matters
+
+| | Traditional stacks (React/Vue/Next) | NSKit |
 |---|---|---|
-| **File Structure** | Small modules + imports | Self-contained (HTML+CSS+JS) |
-| **AI Token Cost** | ~25,000 tokens/change | ~800 tokens/change |
-| **Build Process** | Webpack/Vite required | None — F5 refresh |
-| **Parallel AI Sessions** | Merge conflicts likely | Zero conflicts |
-| **Template Mixing** | Not possible | 100M+ combinations |
+| **File structure** | Small modules + imports | Self-contained (HTML + CSS + JS in one file) |
+| **Build pipeline** | Webpack / Vite / esbuild required | None — F5 refresh = live |
+| **AI token cost per change** | ~25,000 tokens | ~800 tokens |
+| **Parallel AI sessions** | Merge conflicts likely | Zero conflicts |
+| **Final output** | Deployable bundle | **Running production service** |
+| **Template reuse** | Copy-paste, abstract later | **Template Mixing — compound over time** |
+
+NSKit is opinionated about one thing: **the framework constrains structure so that AI can safely compose templates**. Everything else — visual style, domain logic, UX — is free.
+
+## Design input: two sources, one converter
+
+NSKit accepts design input from two complementary paths:
+
+```
+[ AI Design Tools (Claude Design, v0, Lovable…) ]  ──┐
+    ↳ Fast ideation, landing pages, one-off screens   │
+                                                      ├──→  NSKit Template Converter
+[ Pencil (.pen) structured design ]  ─────────────────┘           ↓
+    ↳ Production components, design systems             Self-Contained templates
+      bidirectional sync, stable node IDs                 (Part / Page / Panel / Dialog / Scene)
+                                                                   ↓
+                                                          Template Mixing ecosystem
+```
+
+Whichever path feeds the converter, the output conforms to the same discipline: `PART.define()` structure, Self-Contained closure, Template Mixing compatibility. Source diversity, destination uniformity.
 
 ## Open Source Projects
 
-### NVatar — AI Avatar Chat System
+### NSKit Framework & Tools
+
+| Project | Description |
+|---------|-------------|
+| [**growing-pool-cache**](https://github.com/nskit-io/growing-pool-cache) `npm` | Self-growing cache pool for AI content — 97% cost reduction |
+| [**ai-native-design**](https://github.com/nskit-io/ai-native-design) | Design principles for AI-optimized code structure |
+| [**command-handler**](https://github.com/nskit-io/command-handler) | AI-friendly backend API dispatch for Spring Boot |
+| [**csw**](https://github.com/nskit-io/csw) | Claude Subscription Worker — $200/mo subscription → production API |
+
+### NVatar — AI Avatar Chat System (separate project family)
 
 A living AI companion that runs entirely on local hardware — personality, emotion, memory, and 3D presence.
 
@@ -50,14 +87,13 @@ A living AI companion that runs entirely on local hardware — personality, emot
 | [**vrm-studio**](https://github.com/nskit-io/vrm-studio) | 3D VRM avatar chat room with Three.js + WebSocket |
 | [**portable-ai-companion**](https://github.com/nskit-io/portable-ai-companion) | Cross-app franchise architecture — personality portability (CC BY-NC-SA) |
 
-### NSKit Framework & Tools
+## Where NSKit is headed
 
-| Project | Description |
-|---------|-------------|
-| [**growing-pool-cache**](https://github.com/nskit-io/growing-pool-cache) `npm` | Self-growing cache pool for AI content — 97% cost reduction |
-| [**ai-native-design**](https://github.com/nskit-io/ai-native-design) | Design principles for AI-optimized code structure |
-| [**command-handler**](https://github.com/nskit-io/command-handler) | AI-friendly backend API dispatch for Spring Boot |
-| [**csw**](https://github.com/nskit-io/csw) | Claude Subscription Worker — $200/mo subscription → production API |
+- **2026** — Framework stabilization, template refinement from live B2B projects (GosuSchool, NewMyoung, Prism, Chicver, Haru, BigFoot), Template Studio internal build-out
+- **2027 Q1** — Template Studio public launch, Creator program, compounding ecosystem
+- **Beyond** — Ecosystem that grows as creators ship: every new template widens the combinatorial space
+
+This is a long game. NSKit is not trying to be the fastest way to generate a mockup. It is trying to be the most durable way to build and maintain web services in the AI era.
 
 ---
 
