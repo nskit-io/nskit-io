@@ -64,10 +64,13 @@ NSKit 支持两条互补的设计输入路径:
 
 | 项目 | 说明 |
 |---|---|
+| [**contract-driven-scaffolding**](https://github.com/nskit-io/contract-driven-scaffolding) | 用机器检查的契约让 AI 生成的代码在规模下保持正确 — NSKit `doctor` 模型 |
 | [**growing-pool-cache**](https://github.com/nskit-io/growing-pool-cache) `npm` | AI 内容的自增长缓存池 — 降低 97% 成本 |
 | [**ai-native-design**](https://github.com/nskit-io/ai-native-design) | 面向 AI 优化代码结构的设计原则 |
 | [**command-handler**](https://github.com/nskit-io/command-handler) | 为 Spring Boot 设计的 AI 友好后端 API 分发 |
 | [**csw**](https://github.com/nskit-io/csw) | Claude Subscription Worker — $200/月订阅变生产 API |
+| [**fleet-inference-gateway**](https://github.com/nskit-io/fleet-inference-gateway) | 一个进程独占 GPU — 用一台 Apple Silicon 跑起整个 fleet 的本地推理 |
+| [**gift-economy-settlement**](https://github.com/nskit-io/gift-economy-settlement) | 面向全球虚拟货币经济的实现价值结算 + FIFO 账本 |
 
 ### NVatar — AI 虚拟形象聊天系统(独立项目系列)
 

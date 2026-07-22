@@ -64,10 +64,13 @@ Whichever path feeds the converter, the output conforms to the same discipline: 
 
 | Project | Description |
 |---------|-------------|
+| [**contract-driven-scaffolding**](https://github.com/nskit-io/contract-driven-scaffolding) | Machine-checked contracts that keep AI-generated code correct at scale — the NSKit `doctor` model |
 | [**growing-pool-cache**](https://github.com/nskit-io/growing-pool-cache) `npm` | Self-growing cache pool for AI content — 97% cost reduction |
 | [**ai-native-design**](https://github.com/nskit-io/ai-native-design) | Design principles for AI-optimized code structure |
 | [**command-handler**](https://github.com/nskit-io/command-handler) | AI-friendly backend API dispatch for Spring Boot |
 | [**csw**](https://github.com/nskit-io/csw) | Claude Subscription Worker — $200/mo subscription → production API |
+| [**fleet-inference-gateway**](https://github.com/nskit-io/fleet-inference-gateway) | One process owns the GPU — a fleet's local inference on a single Apple-Silicon machine |
+| [**gift-economy-settlement**](https://github.com/nskit-io/gift-economy-settlement) | Realized-value settlement + FIFO ledger for global virtual-currency economies |
 
 ### NVatar — AI Avatar Chat System (separate project family)
 

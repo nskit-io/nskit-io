@@ -64,10 +64,13 @@ NSKit은 두 가지 보완 경로로 디자인을 받아들입니다:
 
 | 프로젝트 | 설명 |
 |---------|-----|
+| [**contract-driven-scaffolding**](https://github.com/nskit-io/contract-driven-scaffolding) | AI가 쓴 코드를 규모 있게 옳게 유지하는 기계검증 계약 — NSKit `doctor` 모델 |
 | [**growing-pool-cache**](https://github.com/nskit-io/growing-pool-cache) `npm` | AI 콘텐츠용 자가 성장 캐시 풀 — 97% 비용 절감 |
 | [**ai-native-design**](https://github.com/nskit-io/ai-native-design) | AI 최적 코드 구조 설계 원칙 |
 | [**command-handler**](https://github.com/nskit-io/command-handler) | Spring Boot용 AI 친화 백엔드 API 디스패치 |
 | [**csw**](https://github.com/nskit-io/csw) | Claude Subscription Worker — 월 $200 구독으로 프로덕션 API |
+| [**fleet-inference-gateway**](https://github.com/nskit-io/fleet-inference-gateway) | 한 프로세스가 GPU를 소유 — Apple Silicon 한 대로 fleet 로컬 추론 |
+| [**gift-economy-settlement**](https://github.com/nskit-io/gift-economy-settlement) | 글로벌 가상화폐 경제를 위한 실현가치 정산 + FIFO 원장 |
 
 ### NVatar — AI 아바타 채팅 시스템 (별도 프로젝트 계열)
 
