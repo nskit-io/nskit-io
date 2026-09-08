@@ -92,7 +92,7 @@ A living AI companion that runs entirely on local hardware — personality, emot
 
 ## Where NSKit is headed
 
-- **2026** — Framework stabilization, template refinement from live B2B projects (GosuSchool, NewMyoung, Prism, Chicver, Haru, BigFoot), Template Studio internal build-out
+- **2026** — Framework stabilization, template refinement from live B2B projects (NewMyoung, Pellow, Byeol, TRAK, SING:ON, GosuSchool — 21 live services), Template Studio internal build-out
 - **2027 Q1** — Template Studio public launch, Creator program, compounding ecosystem
 - **Beyond** — Ecosystem that grows as creators ship: every new template widens the combinatorial space
 

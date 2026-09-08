@@ -92,7 +92,7 @@ NSKit은 두 가지 보완 경로로 디자인을 받아들입니다:
 
 ## NSKit의 방향
 
-- **2026** — 프레임워크 안정화, 운영 중인 B2B 프로젝트(GosuSchool, NewMyoung, Prism, Chicver, Haru, BigFoot)에서 템플릿 정제, Template Studio 내부 구축
+- **2026** — 프레임워크 안정화, 운영 중인 B2B 프로젝트(뉴명, 펠로우, 별, TRAK, SING:ON, 고수스쿨 — 운영 중 21개)에서 템플릿 정제, Template Studio 내부 구축
 - **2027 Q1** — Template Studio 정식 공개, Creator 프로그램, 복리 생태계 가동
 - **이후** — Creator가 템플릿을 출시할 때마다 조합 공간이 넓어지는 생태계
 

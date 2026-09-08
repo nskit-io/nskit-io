@@ -92,7 +92,7 @@ NSKit 支持两条互补的设计输入路径:
 
 ## NSKit 的方向
 
-- **2026** — 框架稳定化、从运营中的 B2B 项目(GosuSchool、NewMyoung、Prism、Chicver、Haru、BigFoot)中精炼模板、Template Studio 内部建设
+- **2026** — 框架稳定化、从运营中的 B2B 项目(NewMyoung、Pellow、Byeol、TRAK、SING:ON、GosuSchool — 运营中 21 个)中精炼模板、Template Studio 内部建设
 - **2027 Q1** — Template Studio 正式公开、Creator 计划、复利生态上线
 - **之后** — Creator 每发布一个模板,组合空间就扩大一次的生态
 

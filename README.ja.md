@@ -92,7 +92,7 @@ NSKit は2つの補完的な経路からデザインを受け入れます:
 
 ## NSKit の向かう先
 
-- **2026** — フレームワーク安定化、稼働中の B2B プロジェクト(GosuSchool、NewMyoung、Prism、Chicver、Haru、BigFoot)からテンプレートを精錬、Template Studio 内部構築
+- **2026** — フレームワーク安定化、稼働中の B2B プロジェクト(NewMyoung、Pellow、Byeol、TRAK、SING:ON、GosuSchool — 稼働中 21 件)からテンプレートを精錬、Template Studio 内部構築
 - **2027 Q1** — Template Studio 正式公開、Creator プログラム、複利型エコシステム稼働
 - **その後** — Creator がテンプレートを出すたび組み合わせ空間が広がるエコシステム
 
